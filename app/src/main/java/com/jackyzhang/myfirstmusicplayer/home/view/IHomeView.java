@@ -9,4 +9,7 @@ public interface IHomeView {
     public void onMenuItmClicked(int position);
     public void onGotoSearchActivity();
     public void onGoPlayActivity();
+    public void onSongBtnClicked();
+    public void onAlbumBtnClicked();
+    public void onArtBtnClicked();
 }

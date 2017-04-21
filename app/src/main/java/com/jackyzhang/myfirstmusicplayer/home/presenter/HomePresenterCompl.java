@@ -33,4 +33,20 @@ public class HomePresenterCompl implements IHomePresenter {
     public void goPlayActivity() {
         mHomeView.onGoPlayActivity();
     }
+
+    @Override
+    public void clickSongBtn() {
+        mHomeView.onSongBtnClicked();
+    }
+
+    @Override
+    public void clickAlbumBtn() {
+        mHomeView.onAlbumBtnClicked();
+    }
+
+    @Override
+    public void clickArtBtn() {
+        mHomeView.onArtBtnClicked();
+    }
+
 }

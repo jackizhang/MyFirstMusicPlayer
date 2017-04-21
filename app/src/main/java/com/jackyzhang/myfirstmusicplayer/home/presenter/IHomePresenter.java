@@ -5,8 +5,11 @@ package com.jackyzhang.myfirstmusicplayer.home.presenter;
  */
 
 public interface IHomePresenter {
-    public void showMenu();
-    public void onMenuItemClick(int position);
-    public void goSearchActivity();
-    public void goPlayActivity();
+     void showMenu();
+     void onMenuItemClick(int position);
+     void goSearchActivity();
+     void goPlayActivity();
+     void clickSongBtn();
+     void clickAlbumBtn();
+     void clickArtBtn();
 }
