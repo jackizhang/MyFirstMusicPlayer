@@ -22,13 +22,12 @@ public class ListFragment extends Fragment implements IListView,AdapterView.OnIt
 
     ListView lv_data;
     IListPresenter mListPresenter;
-    List<? extends >
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.list_fragment,container);
-        lv_data = (ListView)findViewById(R.id.lv_data);
+        lv_data = (ListView)view.findViewById(R.id.lv_data);
         mListPresenter = new ListPresentCompl(this);
         return view;
     }
